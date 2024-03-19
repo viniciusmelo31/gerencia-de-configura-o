@@ -1,6 +1,6 @@
 class PortoSeco:
     def __init__(self):
-        self.pilhas = [[] for _ in range(4)]  #Inicia 4 Pilhas 
+        self.pilhas = [[] for _ in range(4)]  # Inicia 4 Pilhas 
     
     def empilhar_container(self, codigo):
         if self._codigo_existe(codigo):
@@ -81,3 +81,5 @@ while True:
         break
     else:
         print("Opção inválida. Escolha novamente.")
+
+print('Fim da atividade 1. Controle de versão com Git')  # Adicionado na última linha
